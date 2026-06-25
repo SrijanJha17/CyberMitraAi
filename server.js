@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const Groq = require('groq-sdk');
 const axios = require('axios');
-const db = require('./db'); // ✅ SQLite-backed persistence (see db.js)
+const db = require('./Db'); // ✅ SQLite-backed persistence (see db.js)
 
 const app = express();
 app.use(cors({ origin: '*' }));
